@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(231, 224, 224);
+    background-image: url(imgs/pexels-horizon-content-3763799.jpg);
+    background-size: contain auto ;
+    
+    
+}
+
+a,
+li,
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+.imgs-destaque {
+    text-align: center;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    width: 1200px;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    display: inline;
+    font-family:"Roboto",Arial, Helvetica, sans-serif ;
+}
+
+.cardapio:hover,
+.Lancamento:hover,
+.contact:hover,
+.somos:hover,
+.feedback:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 10px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-top: 7em;
+    width: 90%;
+    text-align: center;
+    font-family:"Roboto",Arial, Helvetica, sans-serif ;
+
+}
+
+h3 {
+    font-family: "Garamond", Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 5px solid rgba(207, 207, 41, 0.63);
+    margin: 40px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    margin-left: 38%;
+    width: 350px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+address {
+    padding: 30PX;
+    text-align: center;
+    background-color: white;
+    margin: 40px;
+    opacity: 50%;
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+}
+
+ol {
+
+    display: inline;
+    margin-right: 50px;
+    padding: 0;
+    overflow: hidden;
+}
